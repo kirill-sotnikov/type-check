@@ -1,0 +1,15 @@
+{
+  "name": "type-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn ts-node src/index.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "0.34.2"
+  }
+}
